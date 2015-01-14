@@ -47,6 +47,24 @@ section {
     visibility: visible;
 }
 
+.navbar-custom {
+    background-color:#f85032;
+    color:#ff1a00;
+    border-radius:0;
+
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #cc0000;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
 .pictureDetail {
     max-width: 425px;
 }
