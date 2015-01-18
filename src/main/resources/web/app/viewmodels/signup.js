@@ -3,7 +3,7 @@ define(function (require,router) {
 
     var activate = function () {
         router.map([
-            { route: 'signup', title:'Signup', moduleId: 'viewmodels/signup', nav: true }
+            { route: 'home', title:'Home', moduleId: 'viewmodels/home', nav: true }
 
         ]).buildNavigationModel();
 
@@ -16,6 +16,7 @@ define(function (require,router) {
 
         self.username = ko.observable();
         self.password = ko.observable();
+
         self.signup = function () {
             console.log("signing up " + self.username());
             // alert( "signing up "+self.userName() );

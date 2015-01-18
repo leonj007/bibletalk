@@ -11,3 +11,5 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-slf4j" % "2.2.3",
   "org.slf4j" % "slf4j-simple" % "1.6.4"
 )
+
+Revolver.settings: Seq[sbt.Def.Setting[_]]
